@@ -31,23 +31,23 @@ Slashing Conditions: Well-defined slashing conditions for validators or entities
 
 ## 5. Performance and Scalability
 
-Transaction Throughput: Must support high transaction volumes to accommodate ecosystem growth and active participation.
-Scalability Solutions: Implement scalable solutions like sharding or layer-2 technologies to maintain efficiency.
+* **Transaction Throughput**: Must support high transaction volumes to accommodate ecosystem growth and active participation.
+* **Scalability Solutions**: Implement scalable solutions like sharding or layer-2 technologies to maintain efficiency.
 
 ## 6. Governance and Upgrades
 
-Governance Framework: A decentralized governance model allowing stakeholders to propose and vote on upgrades and changes.
-Upgrade Mechanisms: Clear and secure processes for implementing upgrades to the contract suite.
+* **Governance Framework**: A decentralized governance model allowing stakeholders to propose and vote on upgrades and changes.
+* **Upgrade Mechanisms**: Clear and secure processes for implementing upgrades to the contract suite.
 
 ## 7. Testing and Deployment
 
-Testing Phases: Extensive testing, including unit, integration, and stress tests, to validate contract functionalities and performance.
-Deployment Strategy: Step-by-step deployment plan, ensuring contracts are deployed securely and effectively with minimal disruption.
+* **Testing Phases**: Extensive testing, including unit, integration, and stress tests, to validate contract functionalities and performance.
+* **Deployment Strategy**: Step-by-step deployment plan, ensuring contracts are deployed securely and effectively with minimal disruption.
 
 ## 8. Compliance and Legal
 
-Regulatory Compliance: Adherence to blockchain and financial regulations, with mechanisms for reporting and compliance checks.
-Intellectual Property Rights: Clear delineation of intellectual property rights concerning the contract code and associated documentation.
+* **Regulatory Compliance**: Adherence to blockchain and financial regulations, with mechanisms for reporting and compliance checks.
+* **Intellectual Property Rights**: Clear delineation of intellectual property rights concerning the contract code and associated documentation.
 
 ## 9. Interface for Basic Implementation (v0)
 
@@ -57,23 +57,23 @@ Version 0 (v0) of the Proof of Developers (PoD) contract suite aims to lay the g
 
 ### 9.1 Certification Interface
 
-Function certifyDeveloper(address developer, bytes32 credentials): Records the developer’s certification, where credentials is a hash representing their verified skills and achievements.
-Event Certified(address developer, bytes32 credentials): Triggered upon successful certification registration.
+* `Function certifyDeveloper(address developer, bytes32 credentials)`: Records the developer’s certification, where credentials is a hash representing their verified skills and achievements.
+* `Event Certified(address developer, bytes32 credentials)`: Triggered upon successful certification registration.
 
 ### 9.2 Minting Interface
 
-Function mintTokens(address developer, uint256 amount): Mints PoD tokens for a certified developer, with amount determined by their certification level and minting rules.
-Event TokensMinted(address developer, uint256 amount): Announced when tokens are minted and allocated to the developer.
+* `Function mintTokens(address developer, uint256 amount)`: Mints PoD tokens for a certified developer, with amount determined by their certification level and minting rules.
+* `Event TokensMinted(address developer, uint256 amount)`: Announced when tokens are minted and allocated to the developer.
 
 ### 9.3 Delegation Interface
 
-Function delegateTokens(address delegatee, uint256 amount): Enables developers to delegate PoD tokens to a delegatee, such as a validator or another entity.
-Event TokensDelegated(address delegator, address delegatee, uint256 amount): Triggered when delegation is successful.
+* `Function delegateTokens(address delegatee, uint256 amount)`: Enables developers to delegate PoD tokens to a delegatee, such as a validator or another entity.
+* `Event TokensDelegated(address delegator, address delegatee, uint256 amount)`: Triggered when delegation is successful.
 
 ### 9.4 Query Interface
 
-Function getCertificationStatus(address developer) returns (bool): Verifies if a developer is certified, returning true or false.
-Function getTokenBalance(address account) returns (uint256): Retrieves the current PoD token balance of an account.
+* `Function getCertificationStatus(address developer) returns (bool)`: Verifies if a developer is certified, returning true or false.
+* `Function getTokenBalance(address account) returns (uint256)`: Retrieves the current PoD token balance of an account.
 
 ### 9.5 Access Control
 
