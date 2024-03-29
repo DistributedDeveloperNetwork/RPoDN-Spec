@@ -17,11 +17,11 @@ Contract Modules:
 
 ## 3. Functional Requirements
 
-Certification Contract: Manages the issuance of on-chain credentials to developers who complete the certification programs.
-Minting Contract: Enables certified developers to mint PoD tokens, with logic based on their certification level and achievements.
-Delegation Contract: Facilitates developers to delegate PoD tokens to validators or entities, with flexible delegation preferences.
-Rewards Distribution Contract: Calculates and distributes rewards based on delegation performance and contribution to the ecosystem.
-Restocking Contract: Dynamically allocates PoD tokens, reinforcing the ecosystem's sustainability and growth.
+[] Certification Contract: Manages the issuance of on-chain credentials to developers who complete the certification programs.
+[] Minting Contract: Enables certified developers to mint PoD tokens, with logic based on their certification level and achievements.
+[] Delegation Contract: Facilitates developers to delegate PoD tokens to validators or entities, with flexible delegation preferences.
+[] Rewards Distribution Contract: Calculates and distributes rewards based on delegation performance and contribution to the ecosystem.
+[] Restocking Contract: Dynamically allocates PoD tokens, reinforcing the ecosystem's sustainability and growth.
 
 ## 4. Security Specifications
 
