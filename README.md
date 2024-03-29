@@ -8,7 +8,7 @@
 
 Network Architecture: Operates on the Ethereum blockchain, integrating with smart contracts for various functionalities like certification, token minting, delegation, and rewards distribution.
 
-* Contract Modules:
+Contract Modules:
 * Certification Contract
 * Minting Contract
 * Delegation Contract
