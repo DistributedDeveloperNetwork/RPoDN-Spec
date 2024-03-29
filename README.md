@@ -1,8 +1,8 @@
 # PoD Contract Specification Draft
 ## 1. Introduction
 
-Purpose: Facilitate a blockchain-based ecosystem to reward and acknowledge developers' expertise in Web3 technologies.
-Scope: Covers the entire lifecycle of developer engagement, including certification, token minting, delegation, rewards, and ecosystem sustainability.
+* ***Purpose***: Facilitate a blockchain-based ecosystem to reward and acknowledge developers' expertise in Web3 technologies.
+* ***Scope***: Covers the entire lifecycle of developer engagement, including certification, token minting, delegation, rewards, and ecosystem sustainability.
 
 ## 2. System Overview
 
